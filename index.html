@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@100;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<script src="https://kit.fontawesome.com/yourcode.js"></script>   
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+ 
+<link rel="stylesheet" href="css/style.css">
+<link rel='shortcut icon' href='image/icon.ico' />
+<title>Luân Trang Wedding</title>
+
+
+</head>
+<body>
+  <!--header  -->  
+  <div class="header" id="c0" style="background-image: url('image/KHA_7669.JPG');">
+    <div class="text">
+        <p class="hh">Luân & Trang</p>
+        <p class="hh2"> về chung một nhà</p>
+    </div>  
+</div>
+<div class="icon_more" style="margin-top: -70px;">
+  <a href="#c1">
+  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+    <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+  </svg></a>
+     </div>
+     
+  <!-- our story -->
+<div class="ourstory">
+    <p class="ourstory-p1" id="c1">Our Story</p>
+    <div class="icon_more">
+      <a href="#c2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg></a>
+         </div>
+         <p class="story">Chuyện tình của chúng mình chớm nở sau một thời gian thật dài quen biết .</p>
+
+        <p class="story">Có không ít lần, chúng mình là hai con đường không có một giao điểm... dù có thương cũng không dám nói ra thành lời</p>
+
+        <p class="story">Nhưng rồi, đúng như câu hát “ Những con đường anh đi rồi cũng đưa anh về bên em “ chúng mình tìm được những đồng điệu cùng nhau sau khi mỗi người trải qua những những thăng trầm cuộc sống này</p>
+
+        <p class="story">Và cũng có thể nói rằng, thật khéo sắp đặt cho "Một người ưa nói - Một người kiệm lời " chịu vì nhau mà nhường nhịn , yêu thương, nắm tay bước sang một trang mới của cuộc đời</p>
+</div>
+  <!-- menu -->
+<div class="gr-br">
+    <div class="gr-br-1" style="background-image: url('image/KHA_7649.JPG');">
+        
+            <p class="hh1">Groom & Bride</p>
+        
+    </div>
+</div>
+<script>
+  $(function() {
+    var pull        = $('#toggle');
+        menu        = $('nav');
+        menuHeight  = menu.height();
+ 
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+});
+
+$(window).resize(function(){
+    var w = $(window).width();
+    if(w > 320 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+    }
+});
+</script>
+
+<div id="menu"> 
+  
+  <ul>
+    <li class="logo"><a href="#c0">L&T</a></li>
+  </ul>
+<div class="menu-r">
+  <nav>
+    <li><a href="#c1">Our Story</a></li>
+    <li><a href="#c2">Groom & Bride</a></li>
+    <li><a href="#c3">Time & Place</a></li>
+    <li><a href="#c4">Gallery</a></li>
+    <li><a href="#c5">RSVP</a></li>
+ </nav>
+  <div id="toggle">
+  
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+   </svg>
+   </div> 
+  </div>
+</div>
+  <!-- home -->
+  <!-- groom bride -->
+<div class="img-profile" id="c2">
+  <div>
+  <img src="image/KHA_7223.JPG">
+  <div class="profile">
+  <p>The Groom</p>
+  <p class="name">Luan</p>
+  <span class="material-symbols-outlined">expand_more</span>
+  <p > <a class="fb" href="https://www.facebook.com/luannguyen0120" target="_blank"  ><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+  </svg></a></p>
+ 
+</div>
+</div>
+<div>
+  <img src="image/KHA_6979.JPG">
+  <div class="profile">
+  <p>The Bride</p>
+  <p class="name">Trang</p>
+  <span class="material-symbols-outlined">expand_more</span>
+ <p > <a class="fb" href="https://www.facebook.com/my.trang.10" target="_blank"  ><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+  </svg></a></p>
+</div>
+</div>
+</div>
+<!-- time place -->
+<div class="time-place" id="c3">
+  <div class="gr-br-1" style="background-image: url('image/EN\ 16.jpg');">    
+    <p class="hh1">May 01, 2023</p>
+</div>
+<div class="place">
+  <div class="place-1">
+  <div class="d1">
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+          <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+          </svg>
+        </p>
+        <p class="p1">Vu Quy</p>
+        <p class="p2">09:00 AM 01/05/2023</p>
+        <p class="p3">Đạ Tẻh</p>
+        <p class="p3">Lâm Đồng</p>
+        <p class="p4">View Map</p>
+  </div>
+
+  <div class="d1">
+    <p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
+      </svg>
+    </p>
+        <p class="p1">Tân Hôn</p>
+        <p class="p2">11:00 AM 07/05/2023</p>
+        <p class="p3">Dương Minh Châu</p>
+        <p class="p3">Tây Ninh</p>
+        <p class="p4">View Map</p>
+  </div>
+
+  <div class="d1">
+  <p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-postcard-heart-fill" viewBox="0 0 16 16">
+      <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2Zm6 2.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0Zm3.5.878c1.482-1.42 4.795 1.392 0 4.622-4.795-3.23-1.482-6.043 0-4.622ZM2 5.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Z"/>
+    </svg>
+  </p>  
+        <p class="p1">Thành Hôn</p>
+        <p class="p2">6:00 PM 13/05/2023</p>
+        <p class="p3">Sảnh Nile, Tầng 1, Riverside Palace</p>
+        <p class="p3">360D Bến Vân Đồn. Quận 4, HCM</p>
+        <p class="p4">View Map</p>
+  </div>
+</div>
+
+</div>
+</div>
+<div class="gallery" id="c4">
+  <p class="ourstory-p1">Gallery</p>
+  <div class="icon_more">
+    <a href="#c5">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+      </svg></a>
+       </div>
+      <div class="d-gl">
+       <p class="gl">Mộng mơ hoa tuyết khắp trời trắng xoá đôi tà áo bay</p>
+       <p class="gl">Giờ còn bóng dáng hai người an nhiên sau không ít những chênh vênh</p>
+       <p class="gl">  Mỉm cười với nhau lần đầu kể từ nỗi đau</p>
+      </div>
+<div class="image">
+  <ul class="cot">
+    <li><img src="image/KHA_7631.JPG" ></li>
+    <li><img src="image/KHA_6518.JPG" ></li>
+    <li><img src="image/KHA_6760.JPG" ></li>
+    <li><img src="image/KHA_6818.JPG" ></li>
+  </ul>
+  <ul class="cot">
+    <li><img src="image/KHA_6963.JPG" ></li>
+    <li><img src="image/KHA_7023.JPG" ></li>
+    <li><img src="image/KHA_7038.JPG" ></li>
+    <li><img src="image/KHA_7094.JPG" ></li>
+  </ul>
+  <ul class="cot">
+    <li><img src="image/KHA_7187.JPG" ></li>
+    <li><img src="image/KHA_7247.JPG" ></li>
+    <li><img src="image/KHA_7282.JPG" ></li>
+    <li><img src="image/KHA_7313.JPG" ></li>
+  </ul>
+</div>
+</div>
+<!-- form       -->
+<div class="h-form" style="background-image: url('image/KHA_6665.JPG');">
+  <div class="h-text">
+      <p>Để công tác chuẩn bị được chu đáo, nhờ mọi người dành chút thời gian điền vào form bên dưới nhé</p>
+      
+  </div>  
+</div>
+<div class="form" id="c5">
+  <p class="ourstory-p1">Will You Join Us?</p>
+  <div class="icon_more">
+    <span class="material-symbols-outlined">expand_more</span>
+     </div>
+  <div id="container">
+    <form action="#" method="post" id="contact_form">
+      <div>
+        <label for="name"></label>
+        <input class="f-name" type="text" placeholder="Họ tên" name="name" id="name_input" required>
+      </div>
+      <div class="cb">
+      <div >
+        <label for="subject"></label>
+        <select class="f-cb1"  placeholder="Subject line" name="subject" id="subject_input" required>
+          <option disabled hidden selected>Số người tham dự</option>
+          <option>Một</option>
+          <option>Hai</option>
+          <option>Ba</option>
+          <option>Không tham dự được</option>
+          <option>Mười</option>
+        </select>
+      </div>
+      <div >
+        <label for="subject"></label>
+        <select class="f-cb2"  placeholder="Subject line" name="subject" id="subject_input" required>
+          <option disabled hidden selected>Tham gia hết</option>
+          <option>Vu quy</option>
+          <option>Thành hôn</option>
+          <option>Tân hôn</option>
+        </select>
+      </div>
+    </div>
+      <div >
+        <label for="message"></label>
+        <textarea class="f-message" name="message" placeholder="Lời nhắn" id="message_input" cols="30" rows="5" required></textarea>
+      </div>
+      <div >
+        <input class="submit" type="submit" value="Gửi" id="form_button" />
+      </div>
+    </form><!-- // End form -->
+  </div><!-- // End #container -->
+</div>
+  <!-- footer -->
+  <div class="footer">
+      <div class="footer-img" style="background-image: url('image/KHA_6449.JPG');">
+              <div class="f-text">
+                <p>See you at the wedding!</p>
+                
+            </div>  
+      </div>
+  </div>
+</body>
+</html>

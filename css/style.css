@@ -20,6 +20,11 @@ vertical-align:center;
 margin-bottom: 10px;
 background-attachment: fixed;
 }
+.vertical{
+    height: 100%;
+    background-size: 4px 4px;
+    background-repeat: repeat;
+}
 .text{
     padding: auto;
     margin-top: 200px ;
